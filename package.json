@@ -7,9 +7,14 @@
     "watch-dev": "webpack --mode development --watch",
     "build-prod": "webpack --mode production"
   },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ashkan-ahmadi/webpack-starter.git"
+  },
   "keywords": [],
   "author": "",
   "license": "ISC",
+  "homepage": "https://github.com/ashkan-ahmadi/webpack-starter#readme",
   "dependencies": {},
   "devDependencies": {
     "webpack": "^5.50.0",

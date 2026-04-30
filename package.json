@@ -4,7 +4,7 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "start": "webpack",
+    "start": "webpack --watch",
     "build:production": "webpack --mode production"
   },
   "repository": {
@@ -15,9 +15,10 @@
   "author": "",
   "license": "ISC",
   "homepage": "https://github.com/ashkan-ahmadi/webpack-starter#readme",
-  "dependencies": {},
   "devDependencies": {
-    "webpack": "^5.99.8",
-    "webpack-cli": "^6.0.1"
+    "ts-loader": "^9.5.7",
+    "typescript": "^6.0.3",
+    "webpack": "^5.106.2",
+    "webpack-cli": "^7.0.2"
   }
 }

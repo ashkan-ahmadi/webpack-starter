@@ -1,10 +1,5 @@
-import { introduceCar } from './utils'
+import documentEventListener from './modules/documentEventListener'
+documentEventListener()
 
-console.log(
-  introduceCar({
-    make: 'Benz',
-    model: 'X5',
-    year: 2004,
-    // capacity: 5, // optional
-  })
-)
+// SCSS + CSS
+import './scss/styles.scss'

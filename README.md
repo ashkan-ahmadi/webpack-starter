@@ -196,13 +196,13 @@ In `package.json`, the scripts can look like this:
 }
 ```
 
-Run a one-time build:
+Run a one-time production-optimized build:
 
 ```bash
 npm run build
 ```
 
-Run Webpack in watch mode:
+Run Webpack in watch mode ideal during development:
 
 ```bash
 npm run start
